@@ -16,7 +16,7 @@ languages:
   ru:   #### РУССКИЙ
     params:
       description: >-
-        Описание ....................................
+
       navigation:
         about: О базе
     title: Турбаза Хоми
@@ -51,7 +51,7 @@ params:
     address: "Zhinvali-Barisakho-Shatili Road, Khomi 1800, Georgia"
 
   description: >-
-    Описание ....................................
+
   favicon: favicon.ico
   logo: ''
   hero:
