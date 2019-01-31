@@ -1,0 +1,108 @@
+#baseURL: /
+#baseURL: http://khomi.ge/
+#baseURL: http://10.0.0.155:1313
+
+DefaultContentLanguage: en
+#languageCode: "ru-ru"
+languageCode: "ru"
+#languageCode: "en-us"
+
+languages:
+  en:
+    params:
+    title: Mountain Resort Khomi
+    weight: 2
+
+  ru:   #### РУССКИЙ
+    params:
+      description: >-
+        Описание ....................................
+      navigation:
+        about: О базе
+    title: Турбаза Хоми
+    form:
+      netlify: true
+      action: 'https://formspree.io/your@email.com'
+      method: POST
+      inputNameName: name
+      inputNameLabel: Имя
+      inputNamePlaceholder: Ваше имя
+      inputEmailName: email
+      inputEmailLabel: Email
+      inputEmailPlaceholder: email
+      inputMsgName: message
+      inputMsgLabel: Текст сообщения
+      inputMsgLength: 750
+      inputSubmitValue: Послать
+    weight: 1
+
+
+
+title: "⛰Mountain Resort Khomi / Турбаза Хоми"
+
+theme: "terrassa"
+
+
+params:
+  contact: # Contact info
+    email: kaparouski@gmail.com
+    phone: +995-598-63-73-34
+    skype: ilyakaparouski
+    address: "Zhinvali-Barisakho-Shatili Road, Khomi 1800, Georgia"
+
+  description: >-
+    Описание ....................................
+  favicon: favicon.ico
+  logo: ''
+  hero:
+    textColor: ''
+  cta:
+    show: true
+    cta: Contact
+    link: contact
+  ЯЯЯform:
+    netlify: true
+    action: 'https://formspree.io/your@email.com'
+    method: POST
+    inputNameName: name
+    inputNameLabel: Name
+    inputNamePlaceholder: Your name
+    inputEmailName: email
+    inputEmailLabel: Email
+    inputEmailPlaceholder: Your email
+    inputMsgName: message
+    inputMsgLabel: Write something
+    inputMsgLength: 750
+    inputSubmitValue: Send
+  posts:
+    showAuthor: true
+    showDate: true
+    showTags: true
+    dateFormat: 'Monday, Jan, 2006'
+  social:
+    twitter: 'https://twitter.com/khomi'
+    facebook: 'https://facebook.com/khomi'
+    instagram: 'https://instagram.com/khomi'
+    pinterest: ''
+    youtube: ''
+  copy:
+    copy: ''
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: false
+  vimeo:
+    disable: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
